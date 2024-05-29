@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Disparador</title>
 </head>
 <body>
     
+    <h1>Disparador</h1>
+
+    <div class="count-message">
+        <p>Mensagens enviadas:</p>
+        <input type="text" value="00" id="cont">
+    </div>
+    
+    <div class="buttons">
+        <div class="logar" id="logar">
+            <button>Logar Whatsapp</button>
+        </div>
+        <div class="intervalo">
+            <p>intervalo entre Envios</p>
+        </div>
+        <div class="iniciar" id="iniciar">
+            <button>Iniciar Disparo</button>
+        </div>
+        <div class="tempo" id="tempo-de-disparo">
+            <input type="text" value="00:00:00" id="tempo">
+        </div>
+    </div>
+    <div>
+        <div class="contatos">
+            <textarea name="" id="contatos" placeholder="Contatos"></textarea>
+            <p class="value1">Valor 1</p>
+            <p class="nome">Nome Cliente</p>
+        </div>
+        <div class="message">
+            <textarea name="" id="mensagens" placeholder="Mensagens"></textarea>
+            <p>Valor 2</p>
+            <p>Comtrato Cliente</p>
+        </div>
+    </div>
+
+    <script src="interface.js"></script>
 </body>
 </html>

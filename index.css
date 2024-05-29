@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+.count-message{
+    float: right;
+    display: flex;
+    font-size: 18px;
+}
+.count-message input{
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 25px;
+    width: 70px;
+    height: 30px;
+    margin: 15px;
+    text-align: center;
+}
+.buttons{
+    margin-top: 60px;
+    padding: 20px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.buttons div{
+    float: left;
+    width: 40%;
+}
+.buttons div button{
+    background-color: #d9d9d9;
+    margin-top: 15px;
+    margin-left: 30%;
+    border-radius: 25px;
+    height: 30px;
+    text-align: center;
+}
+.buttons div p{
+    text-align: center;
+    margin-left: 83%;
+    width: 120px;
+}
+.buttons div input{
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: #d9d9d9;
+    border-radius: 25px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 85%;
+}
+.contatos{
+    width: 30%;
+    margin-left: 10%;
+    float: left;
+}
+.contatos textarea{
+    padding: 20px;
+    width: 98%;
+    height: 180px;
+    border: solid;
+    border-radius: 35px;
+    font-size: 18px;
+}
+
+
+.message{
+    width: 30%;
+    margin-left: 20%;
+    float: left;
+}
+.message textarea{
+    padding: 20px;
+    width: 98%;
+    height: 180px;
+    border: solid;
+    border-radius: 35px;
+    font-size: 18px;
+}
