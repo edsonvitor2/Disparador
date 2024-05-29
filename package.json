@@ -1,0 +1,46 @@
+{
+  "name": "disparador",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager .",
+    "lint": "echo \"No linting configured\""
+  },
+  "build": {
+    "appId": "com.example.disparador",
+    "productName": "Disparador",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "style.css",
+      "main.js",
+      "auto.js",
+      "renderer.js",
+      "Interface.js",
+      "app.js"
+    ],
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^29.1.5",
+    "electron-builder": "^24.13.3"
+  },
+  "author": "Edson Vitor de Sousa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "mssql": "^10.0.2",
+    "puppeteer": "^22.8.0"
+  }
+}
